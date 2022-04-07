@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+  background-color: #002b13;
+}
+
+h4 {
+    letter-spacing: 1px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-yellow {
+  color: #faff00;
+}
+
+.container-custom {
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  /* background-color: pink; */
+}
+
+.heading {
+  margin-top: 15vh;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.heading h1 {
+  /* width: 55%; */
+  font-size: 50px;
+}
+
+.sub-heading {
+  margin-top: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.center-box-for-video {
+  box-shadow: bottom 0px 0px 10px #fff;
+}
+
+.center-box-for-video video {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px #fff;
+}
+
+.b-radius {
+  border-radius: 50px;
+}
+
+.info-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* mtemp-0 is for target audience cards */
+.mtemp-0 {
+    margin-bottom: 0;
+}
+
+.mtemp-0 span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mtemp-0 p {
+    font-size: 17px;
+}
+
+.m-ve3 {
+    margin-top: -3px;
+}
+
+.pad-10px {
+    padding: 10px;
+}
+
+.m-for-info-box {
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+.workshop-wrapper {
+    margin-top: 15vh;
+}
+
+.target-audience {
+    background-color: #026b30;
+    border: 4px solid #4cc481;
+    border-radius: 10px;
+}
+
+#tg-1, #tg-3, #tg-5 {
+    margin-right: -45px;
+}
+
+#tg-2, #tg-4, #tg-6 {
+    margin-left: -45px;
+}
