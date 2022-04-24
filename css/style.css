@@ -31,13 +31,14 @@ h4 {
   width: 70%;
   height: 100%;
   /* background-color: pink; */
+  padding-bottom: 3rem;
 }
 
 .heading {
   margin-top: 15vh;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .heading h1 {
@@ -46,11 +47,14 @@ h4 {
 }
 
 .sub-heading {
-  margin-top: 2em;
+  margin: 2rem 0rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 1em;
   padding: 0 3rem;
+}
+
+.content-boxes {
+  margin-top: 0rem;
 }
 
 .center-box-for-video {
@@ -64,13 +68,53 @@ h4 {
   box-shadow: 10px 10px #4cc481;
 }
 
-.b-radius {
-  border-radius: 50px;
+.schedule {
+  display: flex;
+  padding-left: 7px;
+}
+
+.ts-card-1,
+.ts-card-2,
+.ts-card-3,
+.ts-card-4 {
+  display: flex;
+  background: white;
+  padding: 10px;
+  border-radius: 41px;
+  width: 48%;
+}
+
+.ts-card-1,
+.ts-card-3 {
+  margin-right: 10px;
+}
+
+.ts-card-2,
+.ts-card-4 {
+  margin-left: 10px;
+}
+
+.info-icon {
+  align-self: center;
+}
+
+.info-icon img {
+  width: 48px;
 }
 
 .info-text {
-  font-size: 16px;
+  align-self: center;
+}
+
+.info-text p {
+  margin-bottom: 0rem !important;
+  margin-left: 8px;
+  font-size: 17px;
   font-weight: bold;
+}
+
+#liveSession {
+  margin-top: -7px;
 }
 
 /* mtemp-0 is for target audience cards */
@@ -101,25 +145,7 @@ h4 {
 }
 
 .workshop-wrapper {
-  margin-top: 15vh;
-}
-
-.target-audience {
-  background-color: #026b30;
-  border: 4px solid #4cc481;
-  border-radius: 10px;
-}
-
-#tg-1,
-#tg-3,
-#tg-5 {
-  margin-right: -45px;
-}
-
-#tg-2,
-#tg-4,
-#tg-6 {
-  margin-left: -45px;
+  margin-top: 4rem;
 }
 
 .about-card {
@@ -175,14 +201,24 @@ h4 {
 }
 
 .special-text-learning {
+  display: flex;
   background-color: white;
   border-radius: 20px;
-  padding-bottom: 4px;
 }
 
 .special-text-learning p {
+  margin-left: 10px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.stl-icon {
+  padding: 8px;
+}
+
+.stl-text {
+  align-self: center;
 }
 
 .grab-your-spot {
@@ -235,6 +271,25 @@ footer {
   margin-bottom: 80px;
 }
 
+.Who-for-workshop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.target-audience {
+  background-color: #026b30;
+  border: 4px solid #4cc481;
+  border-radius: 10px;
+  display: flex;
+  width: 32rem;
+  height: 9rem;
+}
+
+#star-icon {
+  width: 50px;
+  height: 50px;
+}
+
 /* For Mobiles */
 
 @media (max-width: 480px) {
@@ -242,8 +297,20 @@ footer {
     margin: auto;
     width: 90%;
   }
+  .heading h1 {
+    font-size: 37px;
+  }
   .sub-heading {
-    padding: 0 1rem;
+    padding: 0rem;
+  }
+  .f-22 {
+    font-size: 20px;
+  }
+  .center-box-for-video video {
+    width: 100%;
+  }
+  .content-boxes {
+    margin-top: 2rem;
   }
   .m-for-info-box {
     font-size: 12px;
@@ -254,6 +321,29 @@ footer {
     padding: 10px;
   }
   .card-width {
-    width: 20rem;
+    width: 22rem;
+  }
+  .Who-for-workshop {
+    flex-direction: column;
+  }
+  .target-audience {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .special-text-learning p {
+    margin: 0px 2px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    line-height: 16px;
+  }
+  .info-icon img {
+    width: 29px;
+    height: 29px;
+  }
+  .info-text p {
+    margin-left: 6px;
+    font-size: 16px;
   }
 }
