@@ -30,7 +30,7 @@ h4 {
   margin: auto;
   width: 70%;
   height: 100%;
-  /* background-color: pink; */
+  background-color: pink;
   padding-bottom: 3rem;
 }
 
@@ -290,12 +290,22 @@ footer {
   height: 50px;
 }
 
+.rate {
+  display: none;
+}
+
+.register-mobile-link a {
+  display: none;
+}
+
+
 /* For Mobiles */
 
 @media (max-width: 480px) {
   .container-custom {
     margin: auto;
     width: 90%;
+    margin-bottom: 0rem;
   }
   .heading h1 {
     font-size: 37px;
@@ -345,5 +355,34 @@ footer {
   .info-text p {
     margin-left: 6px;
     font-size: 16px;
+  }
+  footer {
+    position: unset;
+    margin-top: 0px;
+    margin-bottom: 64px;
+  }
+
+  .time-run-out {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #c8eadf;
+  }
+
+  .rate {
+    display: block;
+    align-self: center;
+  }
+  
+  .register-mobile-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #015928;
+    padding: 10px;
+    border-radius: 10px;
   }
 }
