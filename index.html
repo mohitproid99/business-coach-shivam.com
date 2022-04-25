@@ -230,11 +230,11 @@
                                 </div>
                                 <div class="card-body text-white pt-3">
                                     <h2 class="card-title fw-bold">Shivam Sharma</h2>
-                                    <p class="card-text fw-bold m-0" style="font-size: 19px;">Founder @witty.oneliners
+                                    <p class="card-text fw-bold m-0" style="font-size: 19px;">Founder <a href="http://instagram.com/witty.oneliners" target="_blank" style="text-decoration: none; color: inherit;">@witty.oneliners</a>
                                         <br> <span class="text-yellow">(</span> 110k Followers <span
                                             class="text-yellow">)</span>
                                     </p>
-                                    <p class="card-text fw-bold" style="font-size: 19px;">Co-founder @life.writeups<br>
+                                    <p class="card-text fw-bold" style="font-size: 19px;">Co-founder <a href="http://instagram.com/life.writeups" target="_blank" style="text-decoration: none; color: inherit;">@life.writeups</a><br>
                                         <span class="text-yellow">(</span> 75k Followers <span
                                             class="text-yellow">)</span>
                                     </p>
@@ -364,9 +364,29 @@
                         Time Is Running Out Grab Your Spot Fast!
                     </h2>
                 </div>
+
+                <!-- countdown for registration -->
+
+                <div class="counter-wrapper">
+                    <div class="counter" id="demo">
+                        <div class="days-wrapper" id="day-id">
+                            <p id="days"></p>
+                        </div>
+                        <div class="hours-wrapper">
+                            <p id="hours"></p>
+                        </div>
+                        <div class="minutes-wrapper">
+                            <p id="minutes"></p>
+                        </div>
+                        <div class="seconds-wrapper" id="sec-id">
+                            <p id="seconds"></p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="register-link-wrapper" style="padding: 0px;">
                     <div class="register-link">
-                        <a href="#">Register Now</a>
+                        <a href="#">Reserve Seat for ₹299</a>
                     </div>
                 </div>
             </div>
@@ -496,6 +516,7 @@
     <div class="time-run-out">
         <div class="rate">
             <h3 style="margin-bottom: 0rem;">&#8377; 299/-</h3>
+            <p style="margin-bottom: 0rem;" id="demoMobile"></p>
         </div>
         <div class="register-button">
             <div class="register-mobile-link">
@@ -509,7 +530,74 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <script src="index.js"></script>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("May 22, 2022 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("days").innerHTML = days + "d ";
+            document.getElementById("hours").innerHTML = hours + "h ";
+            document.getElementById("minutes").innerHTML = minutes + "m ";
+            document.getElementById("seconds").innerHTML = seconds + "s ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+
+    <!-- Countdown for mobile -->
+    <script>
+        // Set the date we're counting down to
+        var countDownDateM = new Date("May 22, 2022 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var xM = setInterval(function () {
+
+            // Get today's date and time
+            var nowM = new Date().getTime();
+
+            // Find the distanceM between nowM and the count down date
+            var distanceM = countDownDateM - nowM;
+
+            // Time calculations for days, hours, minutes and seconds
+            var daysM = Math.floor(distanceM / (1000 * 60 * 60 * 24));
+            var hoursM = Math.floor((distanceM % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutesM = Math.floor((distanceM % (1000 * 60 * 60)) / (1000 * 60));
+            var secondsM = Math.floor((distanceM % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demoMobile").innerHTML = daysM + "d " + hoursM + "h " + minutesM + "m " + secondsM + "s ";
+
+            // If the count down is over, write some text 
+            if (distanceM < 0) {
+                clearInterval(xM);
+                document.getElementById("demoMobile").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+
+    <!-- <script src="index.js"></script> -->
 </body>
 
 </html>

@@ -30,7 +30,7 @@ h4 {
   margin: auto;
   width: 70%;
   height: 100%;
-  background-color: pink;
+  /* background-color: pink; */
   padding-bottom: 3rem;
 }
 
@@ -190,9 +190,10 @@ h4 {
 
 .register-link {
   background-color: white;
-  width: 32%;
+  width: 40%;
   padding: 18px;
   border-radius: 50px;
+  margin-top: 50px;
 }
 
 .register-link-wrapper a {
@@ -298,6 +299,30 @@ footer {
   display: none;
 }
 
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.counter div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #026b30;
+  border-radius: 20px;
+  width: 160px;
+  border: 5px solid #4cc481;
+  height: 140px;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.counter div p {
+  font-size: 60px;
+  color: #fff;
+  margin: 0px;
+}
 
 /* For Mobiles */
 
@@ -354,21 +379,22 @@ footer {
   }
   .info-text p {
     margin-left: 6px;
-    font-size: 16px;
+    font-size: 15px;
   }
   footer {
-    position: unset;
+    position: relative;
     margin-top: 0px;
-    margin-bottom: 64px;
+    bottom: 98px;
   }
 
   .time-run-out {
     position: fixed;
+    z-index: 5;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 18px 15px;
     background-color: #c8eadf;
   }
 
@@ -376,13 +402,36 @@ footer {
     display: block;
     align-self: center;
   }
-  
+
   .register-mobile-link a {
     display: block;
     text-decoration: none;
     color: white;
     background: #015928;
-    padding: 10px;
+    padding: 14px;
     border-radius: 10px;
+  }
+
+  .counter div {
+    width: 73px;
+    border: 5px solid #4cc481;
+    height: 74px;
+    padding: 8px;
+  }
+
+  .counter div p {
+    font-size: 22px;
+  }
+
+  #day-id {
+    margin-left: 6px;
+  }
+
+  #sec-id {
+    margin-right: 0px;
+  }
+
+  #demoMobile {
+    font-size: 22px;
   }
 }
