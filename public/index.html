@@ -598,7 +598,29 @@
 
 
     <!-- Firebase hosting -->
-    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBTXLOIKGU7ffSTo6t2AmBm4bEuLBCVTBA",
+          authDomain: "wittyoneliners-2b3fb.firebaseapp.com",
+          projectId: "wittyoneliners-2b3fb",
+          storageBucket: "wittyoneliners-2b3fb.appspot.com",
+          messagingSenderId: "454083568702",
+          appId: "1:454083568702:web:d452eadd3054b247895d6f",
+          measurementId: "G-J54QKYT3XX"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 
     <!-- <script src="index.js"></script> -->
 </body>
