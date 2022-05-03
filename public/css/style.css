@@ -691,6 +691,49 @@ footer {
 }
 
 
+/* For screen sizes between 768px and 1199px */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container-custom {
+    margin: auto;
+    width: 90%;
+  }
+  .stl-text {
+    line-height: 1.1;
+  }
+  .target-audience {
+    width: 43vw;
+  }
+  .mtemp-0 span {
+    font-size: 20px;
+  }
+  .target-audience {
+    height: 10rem;
+  }
+  .center-box-for-video video {
+    width: 90%;
+  }
+  #for-margin-in-tab {
+    margin-top: 2rem;
+  }
+  .info-text p {
+    font-size: 22px;
+  }
+  .text-below-video h4 {
+    line-height: 1.5;
+  }
+  .workshop-wrapper {
+    margin-top: 3rem;
+  }
+  .counter div p {
+    font-size: 55px;
+  }
+  .register-link {
+    width: 60%;
+  }
+}
+ 
+
 /* For screen sizes between 1200px and 1600px */
 
 @media screen 
