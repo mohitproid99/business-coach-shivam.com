@@ -14,6 +14,10 @@ h4 {
   letter-spacing: 1px;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
 .text-white {
   color: #fff;
 }
@@ -282,7 +286,7 @@ footer {
   border: 4px solid #4cc481;
   border-radius: 10px;
   display: flex;
-  width: 32rem;
+  width: 34vw;
   height: 9rem;
 }
 
@@ -324,16 +328,148 @@ footer {
   margin: 0px;
 }
 
-/* For Mobiles */
 
-@media (max-width: 480px) {
+/* For devices below 300px width  */
+
+@media (max-width: 299px) {
   .container-custom {
     margin: auto;
     width: 90%;
     margin-bottom: 0rem;
   }
   .heading h1 {
-    font-size: 37px;
+    font-size: 24px;
+  }
+  .sub-heading {
+    padding: 0rem;
+  }
+  h4.text-white.fw-bold {
+    font-size: 18px;
+  }
+  .center-box-for-video video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px #4cc481;
+  }
+  .center-box-for-video video {
+    width: 100%;
+  }
+  .content-boxes {
+    margin-top: 2rem;
+  }
+  .m-for-info-box {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .info-text p {
+    margin-left: 6px;
+    font-size: 10px;
+  }
+  .workshop-wrapper {
+    margin-top: 3rem;
+  }
+  .mtemp-0 span {
+    font-size: 17px;
+  }
+  p.text-white.mtemp-0 {
+    font-size: 15px;
+  }
+  .card-width {
+    width: 14rem;
+  }
+  .special-text.pt-2.row div img {
+    width: 230% !important;
+  }
+  .special-text-learning p {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .counter div {
+    width: 55px;
+    height: 55px;
+  }
+  .counter div p {
+    font-size: 14px;
+  }
+  .register-link {
+    width: 100%;
+    padding: 10px;
+  }
+  .register-link-wrapper {
+    font-size: 18px;
+  }
+  .f-22 {
+    font-size: 15px;
+  }
+  .Who-for-workshop {
+    flex-direction: column;
+  }
+  .target-audience {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .accordion-body {
+    font-size: 14px;
+  }
+  .info-icon img {
+    width: 29px;
+    height: 29px;
+  }
+  footer {
+    position: relative;
+    margin-top: 0px;
+    bottom: 83px;
+  }
+  .time-run-out {
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15px;
+    background-color: #c8eadf;
+  }
+  .rate {
+    display: block;
+    align-self: center;
+  }
+  .register-mobile-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #015928;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer h4 {
+    font-size: 17px;
+  }
+  #day-id {
+    margin-left: 6px;
+  }
+  #sec-id {
+    margin-right: 0px;
+  }
+  #demoMobile {
+    font-size: 14px;
+  }
+
+}
+
+
+/* For Mobiles */
+
+@media (min-width: 300px) and (max-width: 480px) {
+  .container-custom {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 0rem;
+  }
+  .heading h1 {
+    font-size: 32px;
   }
   .sub-heading {
     padding: 0rem;
@@ -347,6 +483,9 @@ footer {
   .content-boxes {
     margin-top: 2rem;
   }
+  .special-text.pt-2.row div img {
+    width: 137% !important;
+  }
   .m-for-info-box {
     font-size: 12px;
     margin-top: 2px;
@@ -355,8 +494,11 @@ footer {
     width: 100%;
     padding: 10px;
   }
+  .register-link-wrapper {
+    font-size: 25px;
+  }
   .card-width {
-    width: 22rem;
+    width: 20rem;
   }
   .Who-for-workshop {
     flex-direction: column;
@@ -384,7 +526,7 @@ footer {
   footer {
     position: relative;
     margin-top: 0px;
-    bottom: 98px;
+    bottom: 94px;
   }
 
   .time-run-out {
@@ -432,6 +574,136 @@ footer {
   }
 
   #demoMobile {
+    font-size: 20px;
+  }
+}
+
+/* For devices with width 481px and above */
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .container-custom {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 0rem;
+  }
+  .heading h1 {
+    font-size: 35px;
+  }
+  .sub-heading {
+    padding: 0rem;
+  }
+  .f-22 {
+    font-size: 20px;
+  }
+  .center-box-for-video video {
+    width: 100%;
+  }
+  .content-boxes {
+    margin-top: 2rem;
+  }
+  .m-for-info-box {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .register-link {
+    width: 100%;
+    padding: 10px;
+  }
+  .card-width {
+    width: 28rem;
+  }
+  .Who-for-workshop {
+    flex-direction: column;
+  }
+  .target-audience {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .special-text-learning p {
+    margin: 0px 2px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    line-height: 20px;
+  }
+  .info-icon img {
+    width: 29px;
+    height: 29px;
+  }
+  .info-text p {
+    margin-left: 6px;
+    font-size: 18px;
+  }
+  footer {
+    position: relative;
+    margin-top: 0px;
+    bottom: 97px;
+  }
+
+  .time-run-out {
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15px;
+    background-color: #c8eadf;
+  }
+
+  .rate {
+    display: block;
+    align-self: center;
+  }
+
+  .register-mobile-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: #015928;
+    padding: 14px;
+    border-radius: 10px;
+  }
+
+  .counter div {
+    width: 90px;
+    border: 5px solid #4cc481;
+    height: 90px;
+    padding: 8px;
+  }
+
+  .counter div p {
+    font-size: 27px;
+  }
+
+  #day-id {
+    margin-left: 6px;
+  }
+
+  #sec-id {
+    margin-right: 0px;
+  }
+
+  #demoMobile {
     font-size: 22px;
+  }
+}
+
+
+/* For screen sizes between 1200px and 1600px */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1500px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .container-custom {
+      margin: auto;
+      width: 75%;
+      height: 100%;
+      padding-bottom: 3rem;
+  }
+  .target-audience {
+    width: 36vw;
   }
 }
