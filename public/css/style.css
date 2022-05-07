@@ -13,10 +13,10 @@ body {
 h4 {
   letter-spacing: 1px;
 }
-
-.fw-500 {
+/* 
+.fw-400 {
   font-weight: 500;
-}
+} */
 
 .text-white {
   color: #fff;
@@ -457,6 +457,10 @@ footer {
     font-size: 14px;
   }
 
+  #for-font-size {
+    font-size: 14px;
+  }
+
 }
 
 
@@ -575,6 +579,10 @@ footer {
 
   #demoMobile {
     font-size: 20px;
+  }
+
+  #for-font-size {
+    font-size: 14px;
   }
 }
 
