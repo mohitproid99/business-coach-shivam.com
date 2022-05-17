@@ -10,6 +10,7 @@ body {
   background-color: #002b13;
 }
 
+
 h4 {
   letter-spacing: 1px;
 }
@@ -17,6 +18,10 @@ h4 {
 .fw-400 {
   font-weight: 500;
 } */
+
+.fs-21 {
+  font-size: 21px;
+}
 
 .text-white {
   color: #fff;
@@ -69,7 +74,7 @@ h4 {
   width: 80%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 10px 10px #4cc481;
+  box-shadow: 6px 6px #4cc481;
 }
 
 .schedule {
@@ -127,7 +132,7 @@ h4 {
 }
 
 .mtemp-0 span {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -136,7 +141,10 @@ h4 {
 }
 
 .m-ve3 {
-  margin-top: -3px;
+  width: 60px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .pad-10px {
@@ -287,7 +295,7 @@ footer {
   border-radius: 10px;
   display: flex;
   width: 33vw;
-  height: 9rem;
+  height: 8.5rem;
 }
 
 #star-icon {
@@ -336,6 +344,9 @@ footer {
     margin: auto;
     width: 90%;
     margin-bottom: 0rem;
+  }
+  .fs-21 {
+    font-size: 18px;
   }
   .heading h1 {
     font-size: 24px;
@@ -481,6 +492,9 @@ footer {
   .f-22 {
     font-size: 20px;
   }
+  .fs-21 {
+    font-size: 18px;
+  }
   .center-box-for-video video {
     width: 100%;
   }
@@ -502,7 +516,7 @@ footer {
     font-size: 25px;
   }
   .card-width {
-    width: 20rem;
+    width: 19rem;
   }
   .Who-for-workshop {
     flex-direction: column;

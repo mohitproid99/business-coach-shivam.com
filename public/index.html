@@ -17,6 +17,9 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Favicon -- site identity -->
+    <link rel="icon" type="image/x-icon" href="/public/media/images/favicon.ico">
+
     <title>Witty Oneliners</title>
 </head>
 
@@ -80,9 +83,9 @@
                     </div>
                     <div class="col-12 col-lg-6 order-lg-2 order-1">
                         <div class="center-box-for-video text-center">
-                            <video id='video' controls="controls" preload='none' width="600"
+                            <video id='video' controls="controls" controlsList="nodownload" preload='none' width="600"
                                 poster="https://assets.codepen.io/32795/poster.png">
-                                <source id='mp4' src="./media/video/vedioTest.mp4" type='video/mp4' />
+                                <source id='mp4' src="./media/video/2-hour-kickstarter-workshop.mp4" controlsList="nodownload" type='video/mp4'/>
                         </div>
                     </div>
                 </div>
@@ -109,7 +112,7 @@
                         <div id="tg-1" class="">
                             <div class="target-audience p-3">
                                 <div class="card-icon">
-                                    <img src="./media/images/clock.png" class="w-75 m-ve3" alt="Time">
+                                    <img src="./media/images/who/aspiring-content-creator.png" class="m-ve3" alt="Time">
                                 </div>
                                 <div class="card-text">
                                     <p class="text-white mtemp-0">
@@ -125,7 +128,7 @@
                         <div id="tg-2" class="">
                             <div class="target-audience p-3">
                                 <div class="card-icon">
-                                    <img src="./media/images/clock.png" class="w-75 m-ve3" alt="Time">
+                                    <img src="./media/images/who/social-media-influencers1.png" class="m-ve3" alt="Time">
                                 </div>
                                 <div class="card-text">
                                     <p class="text-white mtemp-0">
@@ -145,7 +148,7 @@
                         <div id="tg-3" class="">
                             <div class="target-audience p-3">
                                 <div class="card-icon">
-                                    <img src="./media/images/clock.png" class="w-75 m-ve3" alt="Time">
+                                    <img src="./media/images/who/business-owners.png" class="m-ve3" alt="Time">
                                 </div>
                                 <div class="card-text">
                                     <p class="text-white mtemp-0">
@@ -162,7 +165,7 @@
                         <div id="tg-4" class="">
                             <div class="target-audience p-3">
                                 <div class="card-icon">
-                                    <img src="./media/images/clock.png" class="w-75 m-ve3" alt="Time">
+                                    <img src="./media/images/who/students.png" class="m-ve3" alt="Time">
                                 </div>
                                 <div class="card-text">
                                     <p class="text-white mtemp-0">
@@ -182,7 +185,7 @@
                         <div id="tg-5" class="">
                             <div class="target-audience p-3">
                                 <div class="card-icon">
-                                    <img src="./media/images/clock.png" class="w-75 m-ve3" alt="Time">
+                                    <img src="./media/images/who/working-professionals.png" class="m-ve3" alt="Time">
                                 </div>
                                 <div class="card-text">
                                     <p class="text-white mtemp-0">
@@ -198,7 +201,7 @@
                         <div id="tg-6" class="">
                             <div class="target-audience p-3">
                                 <div class="card-icon">
-                                    <img src="./media/images/clock.png" class="w-75 m-ve3" alt="Time">
+                                    <img src="./media/images/who/talented-freelancers.png" class="m-ve3" alt="Time">
                                 </div>
                                 <div class="card-text">
                                     <p class="text-white mtemp-0">
@@ -235,7 +238,7 @@
                                             class="text-yellow">)</span>
                                     </p>
                                     <p class="card-text fw-bold" style="font-size: 19px;">Co-founder <a href="http://instagram.com/life.writeups" target="_blank" style="text-decoration: none; color: inherit;">@life.writeups</a><br>
-                                        <span class="text-yellow">(</span> 100k+ Followers <span
+                                        <span class="text-yellow">(</span> 114k+ Followers <span
                                             class="text-yellow">)</span>
                                     </p>
                                 </div>
@@ -385,7 +388,7 @@
 
                 <div class="register-link-wrapper" style="padding: 0px;">
                     <div class="register-link">
-                        <a href="https://razorpay.com/payment-link/plink_JNuntay4QnFfxa">Reserve Seat for ₹299/- &nbsp; <s>₹1399/-</s></a>
+                        <a href="https://razorpay.com/payment-link/plink_JNuntay4QnFfxa">Reserve Seat for ₹299/- &nbsp;<s class="fs-21">₹1399/-</s></a>
                     </div>
                 </div>
             </div>
@@ -514,7 +517,7 @@
     <!-- Time is running out for mobile view -->
     <div class="time-run-out">
         <div class="rate">
-            <h3 style="margin-bottom: 0rem;">&#8377; 299/- <s>₹1399</s></h3>
+            <h3 style="margin-bottom: 0rem;">&#8377; 299/- <s class="fs-21">₹1399/-</s></h3>
             <p style="margin-bottom: 0rem;" id="demoMobile"></p>
         </div>
         <div class="register-button">
@@ -532,7 +535,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("May 22, 2022 00:00:00").getTime();
+        var countDownDate = new Date("May 29, 2022 00:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {
@@ -567,7 +570,7 @@
     <!-- Countdown for mobile -->
     <script>
         // Set the date we're counting down to
-        var countDownDateM = new Date("May 22, 2022 00:00:00").getTime();
+        var countDownDateM = new Date("May 29, 2022 00:00:00").getTime();
 
         // Update the count down every 1 second
         var xM = setInterval(function () {
