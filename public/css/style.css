@@ -23,6 +23,10 @@ h4 {
   font-size: 21px;
 }
 
+.f-15 {
+  font-size: 15px;
+}
+
 .text-white {
   color: #fff;
 }
@@ -467,6 +471,9 @@ footer {
   #demoMobile {
     font-size: 14px;
   }
+  .f-15 {
+    font-size: 14px;
+  }
 
   #for-font-size {
     font-size: 14px;
@@ -592,7 +599,7 @@ footer {
   }
 
   #demoMobile {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   #for-font-size {
@@ -708,6 +715,9 @@ footer {
   }
 
   #demoMobile {
+    font-size: 22px;
+  }
+  .f-15 {
     font-size: 22px;
   }
 }
