@@ -349,6 +349,9 @@ footer {
   color: white;
   padding: 20px 10px 15px;
 }
+.footer-info img {
+  width: 12%;
+}
 
 .footer-info .content {
   margin: 5px 0 13px;
@@ -513,6 +516,9 @@ footer {
   .footer-info {
     bottom: 87px;
   }
+  .footer-info img {
+    width: 45%;
+  }
 }
 
 /* For Mobiles */
@@ -638,6 +644,9 @@ footer {
   .footer-info {
     bottom: 87px;
   }
+  .footer-info img {
+    width: 45%;
+  }
 }
 
 /* For devices with width 481px and above */
@@ -751,6 +760,9 @@ footer {
   .footer-info {
     bottom: 87px;
   }
+  .footer-info img {
+    width: 45%;
+  }
 }
 
 /* For screen sizes between 768px and 1199px */
@@ -791,6 +803,9 @@ footer {
   }
   .register-link {
     width: 65%;
+  }
+  .footer-info img {
+    width: 35%;
   }
 }
 
