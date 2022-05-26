@@ -351,7 +351,7 @@ footer {
 }
 
 .footer-info .content {
-  margin: 5px 0 13px; 
+  margin: 5px 0 13px;
 }
 
 .footer-info .content p {
@@ -377,6 +377,7 @@ footer {
     margin: auto;
     width: 90%;
     margin-bottom: 0rem;
+    padding-bottom: 2rem;
   }
   .fs-21 {
     font-size: 18px;
@@ -506,9 +507,11 @@ footer {
     font-size: 12px;
     font-weight: 500;
   }
-
   #for-font-size {
     font-size: 14px;
+  }
+  .footer-info {
+    bottom: 87px;
   }
 }
 
@@ -519,6 +522,7 @@ footer {
     margin: auto;
     width: 90%;
     margin-bottom: 0rem;
+    padding-bottom: 2rem;
   }
   .heading h1 {
     font-size: 32px;
@@ -550,7 +554,7 @@ footer {
     padding: 10px;
   }
   .register-link-wrapper {
-    font-size: 25px;
+    font-size: 20px;
   }
   .card-width {
     width: 19rem;
@@ -583,7 +587,6 @@ footer {
     margin-top: 0px;
     bottom: 88px;
   }
-
   .time-run-out {
     position: fixed;
     z-index: 5;
@@ -594,12 +597,10 @@ footer {
     padding: 18px 15px;
     background-color: #c8eadf;
   }
-
   .rate {
     display: block;
     align-self: center;
   }
-
   .register-mobile-link a {
     display: block;
     text-decoration: none;
@@ -608,14 +609,12 @@ footer {
     padding: 14px;
     border-radius: 10px;
   }
-
   .counter div {
     width: 73px;
     border: 5px solid #4cc481;
     height: 74px;
     padding: 8px;
   }
-
   .counter div p {
     font-size: 22px;
   }
@@ -636,8 +635,9 @@ footer {
     font-size: 12px;
     font-weight: 500;
   }
-
-  
+  .footer-info {
+    bottom: 87px;
+  }
 }
 
 /* For devices with width 481px and above */
@@ -647,6 +647,7 @@ footer {
     margin: auto;
     width: 90%;
     margin-bottom: 0rem;
+    padding-bottom: 2rem;
   }
   .heading h1 {
     font-size: 35px;
@@ -702,7 +703,6 @@ footer {
     margin-top: 0px;
     bottom: 87px;
   }
-
   .time-run-out {
     position: fixed;
     z-index: 5;
@@ -713,12 +713,10 @@ footer {
     padding: 18px 15px;
     background-color: #c8eadf;
   }
-
   .rate {
     display: block;
     align-self: center;
   }
-
   .register-mobile-link a {
     display: block;
     text-decoration: none;
@@ -727,26 +725,21 @@ footer {
     padding: 14px;
     border-radius: 10px;
   }
-
   .counter div {
     width: 90px;
     border: 5px solid #4cc481;
     height: 90px;
     padding: 8px;
   }
-
   .counter div p {
     font-size: 27px;
   }
-
   #day-id {
     margin-left: 6px;
   }
-
   #sec-id {
     margin-right: 0px;
   }
-
   #demoMobile {
     font-size: 15px;
     font-weight: 500;
@@ -754,6 +747,9 @@ footer {
   .f-15 {
     font-size: 15px;
     font-weight: 500;
+  }
+  .footer-info {
+    bottom: 87px;
   }
 }
 
@@ -794,7 +790,7 @@ footer {
     font-size: 55px;
   }
   .register-link {
-    width: 60%;
+    width: 65%;
   }
 }
 
