@@ -1,0 +1,43 @@
+.pripolicy-wrapper {
+  margin-top: 10vh;
+  color: #f8f8f8;
+  border: 7px solid #1c1c1e;
+  padding: 10px;
+  border-radius: 35px;
+  margin-bottom: 5vh;
+}
+.pripolicy-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 20px;
+}
+.pripolicy-wrapper p {
+  margin: 10px 20px;
+}
+.pripolicy-wrapper ul {
+  margin: 10px 60px;
+}
+.abc img {
+  position: relative;
+  top: 35px;
+}
+.abc img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+@media (max-width: 768px) {
+  .pripolicy-wrapper p {
+    margin: 10px;
+  }
+  .pripolicy-wrapper ul {
+    margin: 10px 35px;
+  }
+
+  #footer-info-pri-pol {
+    bottom: 0px !important;
+  }
+}
