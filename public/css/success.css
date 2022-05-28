@@ -1,0 +1,35 @@
+.success-wrapper {
+  margin: 15vh 0 10vh;
+  text-align: center;
+}
+.success-wrapper p {
+  font-size: 25px;
+  font-weight: 500;
+}
+.try {
+  background-color: #f6d327;
+  background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
+}
+.pre-requisites-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.pre-requisites {
+  border-radius: 10px;
+  padding: 60px 60px 35px;
+}
+.down-arrow {
+  display: flex;
+  justify-content: space-between;
+}
+.down-arrow img {
+  transform: scaleY(-1);
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #f8f8f8;
+  font-size: 20px;
+  font-weight: 500;
+}
