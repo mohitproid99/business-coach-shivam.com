@@ -275,15 +275,14 @@ footer {
   font-size: 20px;
   font-weight: 500;
 }
-
 .accordion-button:not(.collapsed) {
-  color: #1c1c1e;
-  background-color: #c3df9d;
+  color: #1c1c1e !important;
+  background-color: #c3df9d !important;
 }
 
 .accordion-button:focus {
-  border-color: unset;
-  box-shadow: unset;
+  border-color: unset !important;
+  box-shadow: unset !important;
 }
 
 .accordian-item {
