@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #002b13;
+  background-color: #002b13 !important;
 }
 
 :root {
@@ -277,7 +277,7 @@ footer {
 }
 
 .accordion-button:not(.collapsed) {
-  color: inherit;
+  color: #1c1c1e;
   background-color: #c3df9d;
 }
 
@@ -424,6 +424,10 @@ footer {
   color: #f8f8f8;
 }
 
+.social img {
+  width: 36px !important;
+  margin: 0 5px;
+}
 
 /* For devices below 300px width  */
 
@@ -594,6 +598,9 @@ footer {
     left: 57px;
     opacity: 0;
   }
+  .social img {
+    width: 36px;
+  }
 }
 
 /* For Mobiles */
@@ -745,6 +752,9 @@ footer {
     left: 57px;
     opacity: 0;
   }
+  .social img {
+    width: 36px;
+  }
 }
 
 /* For devices with width 481px and above */
@@ -874,6 +884,9 @@ footer {
     top: 601px;
     left: 57px;
     opacity: 0;
+  }
+  .social img {
+    width: 36px;
   }
 }
 

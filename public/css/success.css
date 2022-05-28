@@ -1,14 +1,14 @@
 .success-wrapper {
-  margin: 15vh 0 10vh;
+  margin: 15vh 0 5vh;
   text-align: center;
 }
 .success-wrapper p {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 500;
 }
 .try {
-  background-color: #f6d327;
-  background-image: linear-gradient(315deg, #f6d327 0%, #de4daa 74%);
+  background-color: #f8ef42;
+  background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
 }
 .pre-requisites-wrapper {
   display: flex;
@@ -16,7 +16,7 @@
 }
 .pre-requisites {
   border-radius: 10px;
-  padding: 60px 60px 35px;
+  padding: 60px 50px 35px;
 }
 .down-arrow {
   display: flex;
@@ -30,6 +30,9 @@
   border-radius: 5px;
   padding: 10px 20px;
   color: #f8f8f8;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
+}
+.accordion-collapse .accordion-body p {
+    color: #1c1c1e;
 }
