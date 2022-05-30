@@ -58,3 +58,25 @@ var xM = setInterval(function () {
     document.getElementById("demoMobile").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+// share with
+var url = window.location;
+var title = document.title;
+var mnsocial = document.getElementsByClassName("mn-social-bottom");
+mnsocial[0].href = "https://www.facebook.com/sharer/sharer.php?u=" + 'https://wittyoneliners.com/';
+mnsocial[1].href = "https://twitter.com/home?status=" + 'https://wittyoneliners.com/' + " " + title;
+mnsocial[2].href = "https://www.linkedin.com/shareArticle?mini=true&url=" + 'https://wittyoneliners.com/';
+mnsocial[3].href = "https://api.whatsapp.com/send?phone=&text=" + 'https://wittyoneliners.com/';
+
+
+
+
+
+function copyText() {
+      
+  /* Copy text into clipboard */
+  navigator.clipboard.writeText
+      ('https://wittyoneliners.com/');
+      // alert("Link copied to clipboard");
+      document.getElementById("link-copy").innerHTML = "Link copied to clipboard";
+}
